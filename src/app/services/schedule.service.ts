@@ -13,7 +13,7 @@ import { environment } from '../environment';
   providedIn: 'root'
 })
 export class ScheduleService {
-  private apiUrl = `${environment.baseUrl}/api/schedules'`;
+  private apiUrl = `${environment.baseUrl}/api/schedules`;
 
 
   private discountDates: { [key: string]: number } = {};

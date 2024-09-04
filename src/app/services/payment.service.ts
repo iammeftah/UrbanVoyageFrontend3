@@ -11,7 +11,7 @@ import { environment } from '../environment';
 })
 export class PaymentService {
   private stripePromise: Promise<Stripe | null>;
-  private apiUrl = `${environment.baseUrl}/api/payment'`;
+  private apiUrl = `${environment.baseUrl}/api/payment`;
 
 
   constructor(

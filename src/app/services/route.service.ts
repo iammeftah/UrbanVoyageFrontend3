@@ -10,7 +10,7 @@ import { environment } from '../environment';
   providedIn: 'root'
 })
 export class RouteService {
-  private apiUrl = `${environment.baseUrl}/api/routes'`;
+  private apiUrl = `${environment.baseUrl}/api/routes`;
 
 
   constructor(private http: HttpClient , private router: Router) { }

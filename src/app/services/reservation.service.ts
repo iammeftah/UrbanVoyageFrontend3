@@ -10,7 +10,7 @@ import { environment } from '../environment';
   providedIn: 'root'
 })
 export class ReservationService {
-  private apiUrl = `${environment.baseUrl}/api/reservations'`;
+  private apiUrl = `${environment.baseUrl}/api/reservations`;
 
 
   constructor(private http: HttpClient ,private paymentService: PaymentService,private authService:AuthService) { }

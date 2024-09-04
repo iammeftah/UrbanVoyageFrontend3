@@ -8,7 +8,7 @@ import { environment } from '../environment';
 })
 export class RefundService {
 
-  private apiUrl = `${environment.baseUrl}/api/refunds'`;
+  private apiUrl = `${environment.baseUrl}/api/refunds`;
 
   constructor(private http: HttpClient) {}
 

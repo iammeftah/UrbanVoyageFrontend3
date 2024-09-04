@@ -7,7 +7,7 @@ import { environment } from '../environment';
   providedIn: 'root'
 })
 export class ImageService {
-  private apiUrl = `${environment.baseUrl}/api/background-image'`;
+  private apiUrl = `${environment.baseUrl}/api/background-image`;
 
   constructor(private http: HttpClient) {}
 

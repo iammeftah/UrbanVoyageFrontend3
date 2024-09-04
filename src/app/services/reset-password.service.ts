@@ -9,7 +9,7 @@ import { environment } from '../environment';
   providedIn: 'root'
 })
 export class ResetPasswordService {
-  private apiUrl = `${environment.baseUrl}/api/reset-password'`;
+  private apiUrl = `${environment.baseUrl}/api/reset-password`;
 
   constructor(private http: HttpClient) {}
 
