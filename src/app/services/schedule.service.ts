@@ -7,7 +7,7 @@ import {Route} from "../models/route.model";
 import {DistanceService} from "./distance.service";
 import {PricingService} from "./pricing.service";
 import {locations} from "../data/locations.data";
-import { environment } from '../environment';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'

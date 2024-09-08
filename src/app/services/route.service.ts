@@ -4,7 +4,7 @@ import {Observable, Subject, throwError} from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { Route } from "../models/route.model";
 import {Router} from "@angular/router";
-import { environment } from '../environment';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'

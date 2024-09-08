@@ -4,7 +4,7 @@ import { Observable, catchError, tap, throwError } from 'rxjs';
 import { Reservation } from '../models/reservation.model';
 import {PaymentService} from "./payment.service";
 import {AuthService} from "./auth.service";
-import { environment } from '../environment';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'

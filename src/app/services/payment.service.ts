@@ -4,7 +4,7 @@ import { loadStripe, Stripe } from '@stripe/stripe-js';
 import {firstValueFrom, Observable, throwError} from 'rxjs';
 import { SharedDataService } from './shared-data.service';
 import {catchError} from "rxjs/operators";
-import { environment } from '../environment';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'
